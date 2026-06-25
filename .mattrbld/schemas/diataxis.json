@@ -1,0 +1,113 @@
+{
+  "fields": [
+    {
+      "type": "list",
+      "default": null,
+      "icon": "bullet-list",
+      "key": "Diátaxis",
+      "label": "Diátaxis",
+      "localised": false,
+      "options": {
+        "limitToModel": false,
+        "model": []
+      },
+      "tab": "Untitled Tab",
+      "validation": {
+        "enforceMinMax": false,
+        "max": 1,
+        "min": null,
+        "unit": "list items"
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "id",
+      "icon": "hash",
+      "key": "id",
+      "label": "Unique ID",
+      "options": {
+        "type": "template",
+        "idTemplate": ":chapter.:area",
+        "editable": true
+      },
+      "tab": "Untitled Tab",
+      "validation": {
+        "required": true
+      },
+      "value": null,
+      "version": 3,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "select",
+      "default": null,
+      "icon": "dropdown",
+      "key": "select",
+      "label": "Dropdown",
+      "options": {
+        "filterable": false,
+        "removable": false,
+        "placeholder": "Select a value…",
+        "options": []
+      },
+      "tab": "Untitled Tab",
+      "validation": {
+        "required": false
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "radio group",
+      "default": null,
+      "icon": "radio-group-list",
+      "key": "radio-group",
+      "label": "Radio Group",
+      "options": {
+        "type": "inline",
+        "options": [
+          "ref",
+          "how",
+          "exp",
+          "tut"
+        ]
+      },
+      "tab": "Untitled Tab",
+      "validation": {
+        "required": false
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    }
+  ],
+  "tabs": [
+    {
+      "label": "Untitled Tab",
+      "groupAs": null
+    }
+  ]
+}

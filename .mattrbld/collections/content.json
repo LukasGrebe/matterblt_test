@@ -1,0 +1,21 @@
+{
+  "allowedTypes": [],
+  "defaultFilename": "collection",
+  "dir": "/content",
+  "disableComments": false,
+  "disablePreview": false,
+  "draftByDefault": true,
+  "linkable": true,
+  "maxSize": null,
+  "permissions": {
+    "everybody": [
+      "everything"
+    ]
+  },
+  "rawEntityNames": true,
+  "schemas": [
+    "/.mattrbld/schemas/diataxis.json"
+  ],
+  "type": "md",
+  "urlTemplate": ""
+}
